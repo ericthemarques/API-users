@@ -1,0 +1,26 @@
+GET http://localhost:4000/users
+
+###
+
+GET http://localhost:4000/users/
+
+###
+
+POST http://localhost:4000/users
+Content-Type: application/json
+
+{
+    "name": "gulag",
+    "isCoding": "no"
+}
+
+###
+DELETE http://localhost:4000/users/620292e10cf554c6ace71b74
+
+###
+PATCH  http://localhost:4000/users/620294d48d9a2c7db4dd628d
+Content-Type: application/json
+
+{
+    "name": "novo nome"
+}
